@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.4)  4 MAR 2026 23:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.4)  5 MAR 2026 00:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1195,9 +1195,7 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (main.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported on input line 17.
- (capitulos/cap_1.aux
-\g__glossaries_gls_ref_acronym_int=\count556
-) (capitulos/cap_2.aux) (capitulos/cap_3.aux) (capitulos/cap_4.aux))
+ (capitulos/cap_1.aux) (capitulos/cap_2.aux) (capitulos/cap_3.aux) (capitulos/cap_4.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 220.
@@ -1223,16 +1221,16 @@ Package hyperref Info: Link coloring ON on input line 220.
 \myptabboxwidth=\skip299
  (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count557
+\scratchcounter=\count556
 \scratchdimen=\dimen308
 \scratchbox=\box72
-\nofMPsegments=\count558
-\nofMParguments=\count559
+\nofMPsegments=\count557
+\nofMParguments=\count558
 \everyMPshowfont=\toks52
-\MPscratchCnt=\count560
+\MPscratchCnt=\count559
 \MPscratchDim=\dimen309
-\MPnumerator=\count561
-\makeMPintoPDFobject=\count562
+\MPnumerator=\count560
+\makeMPintoPDFobject=\count561
 \everyMPtoPDFconversion=\toks53
 ) (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1368,15 +1366,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                chave_da_referencia_aqui
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 220.
 Package biblatex Info: Reference segment=0 on input line 220.
  (pre_textual/pretextual.tex
@@ -1387,9 +1377,42 @@ File: configs/vertical_sigla_fundo_claro.pdf Graphic file (type pdf)
 <use configs/vertical_sigla_fundo_claro.pdf>
 Package pdftex.def Info: configs/vertical_sigla_fundo_claro.pdf  used on input line 2.
 (pdftex.def)             Requested size: 52.35297pt x 96.03188pt.
-[1
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2.
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2.
+ (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 2.
+ (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 2.
+ (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 2.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+ (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+ (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [1
 
-{C:/Users/Usuário/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./configs/vertical_sigla_fundo_claro.pdf>]
+{C:/Users/Usuário/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc} <./configs/vertical_sigla_fundo_claro.pdf>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1399,12 +1422,12 @@ l.8
 
 
 ]
-<pre_textual/ficha_catalografica.pdf, id=18, 597.55246pt x 845.19763pt>
+<pre_textual/ficha_catalografica.pdf, id=19, 597.55246pt x 845.19763pt>
 File: pre_textual/ficha_catalografica.pdf Graphic file (type pdf)
 <use pre_textual/ficha_catalografica.pdf>
 Package pdftex.def Info: pre_textual/ficha_catalografica.pdf  used on input line 12.
 (pdftex.def)             Requested size: 597.551pt x 845.19557pt.
-<pre_textual/ficha_catalografica.pdf, id=20, page=1, 597.55246pt x 845.19763pt>
+<pre_textual/ficha_catalografica.pdf, id=21, page=1, 597.55246pt x 845.19763pt>
 File: pre_textual/ficha_catalografica.pdf Graphic file (type pdf)
 <use pre_textual/ficha_catalografica.pdf, page 1>
 Package pdftex.def Info: pre_textual/ficha_catalografica.pdf , page1 used on input line 12.
@@ -1448,12 +1471,9 @@ Package pdftex.def Info: pre_textual/ficha_catalografica.pdf , page1 used on inp
 
 ]
 
-Package glossaries Info: Preparing to sort glossary `acronym' (total number of
-(glossaries)             referenced entries: 1)
+Package glossaries Warning: Empty glossary for \printnoidxglossary[type={acronym}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 121.
 
 [12
-
-
 
 ]
 
@@ -1461,63 +1481,14 @@ Package glossaries Warning: Empty glossary for \printnoidxglossary[type={simbolo
 
 [13
 
-] (main.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 11.
- (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 11.
- (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 11.
- (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 11.
- (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 11.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 11.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 11.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
- (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
- (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-Overfull \hbox (0.19705pt too wide) in paragraph at lines 17--17
- [][] [][]\T1/lmr/bx/n/12 (-10) ESTUDO DE CASO: C�L-CULO DE $\OML/lmm/m/it/12 ^^Y$ \T1/lmr/bx/n/12 (-10) E AN�-LISE DE ERRO 
- []
+] (main.toc) [14
 
-) [14
-
-{C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}])
+])
 \openout2 = `capitulos/cap_1.aux'.
 
  (capitulos/cap_1.tex
 Cap\'{\i }tulo 1.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 31.
-(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 38.
- [15
+[15
 
 
 
@@ -1529,51 +1500,61 @@ Package babel Info: 'brazil' activates 'portuges' shorthands.
 
  (capitulos/cap_2.tex
 Cap\'{\i }tulo 2.
-[17
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 36.
+(C:\Users\Usuário\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [17
 
 
 
 
-{C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
-
-LaTeX Warning: Citation 'chave_da_referencia_aqui' on page 18 undefined on input line 40.
-
-
-Overfull \hbox (36.31308pt too wide) in paragraph at lines 40--41
-\T1/lmr/m/n/12 (-10) ta-bu-lar os acer-tos pro-ba-bi-l�s-ti-cos est� ex-posta no c�-digo a se-guir ([]): 
- []
-
-[18]) [19]
+{C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]) [18]
 \openout2 = `capitulos/cap_3.aux'.
 
- (capitulos/cap_3.tex
-Cap\'{\i }tulo 3.
-) [20
-
+ (capitulos/cap_3.tex [19
 
 
 
 ]
+Overfull \hbox (1.95023pt too wide) in paragraph at lines 59--59
+[]    \T1/lmtt/m/n/12 # An�lise de Erro Final em rela��o ao valor verdadeiro de Pi (math.pi)[] 
+ []
+
+[20]
+<figuras/grafico_montecarlo.png, id=211, 867.24pt x 361.35pt>
+File: figuras/grafico_montecarlo.png Graphic file (type png)
+<use figuras/grafico_montecarlo.png>
+Package pdftex.def Info: figuras/grafico_montecarlo.png  used on input line 111.
+(pdftex.def)             Requested size: 455.0pt x 189.58478pt.
+ [21 <./figuras/grafico_montecarlo.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 121.
+) [22]
 \openout2 = `capitulos/cap_4.aux'.
 
  (capitulos/cap_4.tex
-Cap\'{\i }tulo 4.
-) [21
+Cap\'{\i }tulo 3.
+) [23
 
 
 
 
-] (pos_textual/apendice_a.tex [22
+] (pos_textual/apendice_a.tex [24
 
 
 
 ]
 AP\^ENDICE A.
-) (pos_textual/anexo_a.tex [23
+) (pos_textual/anexo_a.tex [25
 
 ]
 ANEXO A.
-) [24
+) [26
 
 ]
 \tf@lof=\write6
@@ -1598,17 +1579,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38870 strings out of 467867
- 740315 string characters out of 5416883
- 1838119 words of memory out of 5000000
- 67060 multiletter control sequences out of 15000+600000
- 672884 words of font info for 111 fonts, out of 8000000 for 9000
+ 38919 strings out of 467867
+ 741707 string characters out of 5416883
+ 1838961 words of memory out of 5000000
+ 67107 multiletter control sequences out of 15000+600000
+ 673073 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,17n,117p,2649b,4447s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (25 pages, 328447 bytes).
+<C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on main.pdf (27 pages, 437999 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
- 23285 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 414 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 23802 words of extra memory for PDF output out of 24883 (max. 10000000)
 

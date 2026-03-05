@@ -19,48 +19,220 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
-    \entry{abntex2classe}{manual}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3ebd20695bd75494918b0830766ddb8a}{%
-           family={Araujo},
-           familyi={A\bibinitperiod},
-           given={Lauro\bibnamedelima César},
-           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod},
+    \entry{diniz2018}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ac87c93a1a321174fc37c61df9f847c9}{%
+           family={Diniz},
+           familyi={D\bibinitperiod},
+           given={Maria\bibnamedelimb do\bibnamedelima Carmo},
+           giveni={M\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ab6220b11102b27fa6f8572eb8064bd}{%
+           family={Lima},
+           familyi={L\bibinitperiod},
+           given={Newton},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6a579f380d7d2e51df4b3db9d0f3d60}{%
+           family={Soldi},
+           familyi={S\bibinitperiod},
+           given={Raul},
+           giveni={R\bibinitperiod},
            givenun=0}}%
       }
-      \list{organization}{1}{%
-        {Equipe abnTeX2}%
+      \list{location}{1}{%
+        {Brasília}%
       }
-      \strng{namehash}{3ebd20695bd75494918b0830766ddb8a}
-      \strng{fullhash}{3ebd20695bd75494918b0830766ddb8a}
-      \strng{fullhashraw}{3ebd20695bd75494918b0830766ddb8a}
-      \strng{bibnamehash}{3ebd20695bd75494918b0830766ddb8a}
-      \strng{authorbibnamehash}{3ebd20695bd75494918b0830766ddb8a}
-      \strng{authornamehash}{3ebd20695bd75494918b0830766ddb8a}
-      \strng{authorfullhash}{3ebd20695bd75494918b0830766ddb8a}
-      \strng{authorfullhashraw}{3ebd20695bd75494918b0830766ddb8a}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \list{publisher}{1}{%
+        {Editora Universitária}%
+      }
+      \strng{namehash}{9f512ca736cf6507f12aa531b12dd0ed}
+      \strng{fullhash}{9f512ca736cf6507f12aa531b12dd0ed}
+      \strng{fullhashraw}{9f512ca736cf6507f12aa531b12dd0ed}
+      \strng{bibnamehash}{9f512ca736cf6507f12aa531b12dd0ed}
+      \strng{authorbibnamehash}{9f512ca736cf6507f12aa531b12dd0ed}
+      \strng{authornamehash}{9f512ca736cf6507f12aa531b12dd0ed}
+      \strng{authorfullhash}{9f512ca736cf6507f12aa531b12dd0ed}
+      \strng{authorfullhashraw}{9f512ca736cf6507f12aa531b12dd0ed}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{subtitle}{Modelo canônico de trabalhos acadêmicos brasileiros compatível com as normas ABNT NBR 14724:2011, ABNT NBR 6024:2012 e outras}
-      \field{title}{A classe abntex2}
-      \field{urlday}{16}
-      \field{urlmonth}{8}
-      \field{urlyear}{2019}
+      \field{edition}{2}
+      \field{title}{História da Matemática}
+      \field{year}{2018}
+    \endentry
+    \entry{fishman1996}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d0cbd9f4d99fc7f923da643001fa1c3}{%
+           family={Fishman},
+           familyi={F\bibinitperiod},
+           given={G.\bibnamedelimi S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{5d0cbd9f4d99fc7f923da643001fa1c3}
+      \strng{fullhash}{5d0cbd9f4d99fc7f923da643001fa1c3}
+      \strng{fullhashraw}{5d0cbd9f4d99fc7f923da643001fa1c3}
+      \strng{bibnamehash}{5d0cbd9f4d99fc7f923da643001fa1c3}
+      \strng{authorbibnamehash}{5d0cbd9f4d99fc7f923da643001fa1c3}
+      \strng{authornamehash}{5d0cbd9f4d99fc7f923da643001fa1c3}
+      \strng{authorfullhash}{5d0cbd9f4d99fc7f923da643001fa1c3}
+      \strng{authorfullhashraw}{5d0cbd9f4d99fc7f923da643001fa1c3}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Monte Carlo: Concepts, Algorithms, and Applications}
+      \field{year}{1996}
+    \endentry
+    \entry{gardiner2009}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1a99d8124145c0f975c5c7fe9c96e145}{%
+           family={Gardiner},
+           familyi={G\bibinitperiod},
+           given={Crispin},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{1a99d8124145c0f975c5c7fe9c96e145}
+      \strng{fullhash}{1a99d8124145c0f975c5c7fe9c96e145}
+      \strng{fullhashraw}{1a99d8124145c0f975c5c7fe9c96e145}
+      \strng{bibnamehash}{1a99d8124145c0f975c5c7fe9c96e145}
+      \strng{authorbibnamehash}{1a99d8124145c0f975c5c7fe9c96e145}
+      \strng{authornamehash}{1a99d8124145c0f975c5c7fe9c96e145}
+      \strng{authorfullhash}{1a99d8124145c0f975c5c7fe9c96e145}
+      \strng{authorfullhashraw}{1a99d8124145c0f975c5c7fe9c96e145}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Stochastic Methods: A Handbook for the Natural and Social Sciences}
+      \field{year}{2009}
+    \endentry
+    \entry{metropolis1949}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8a5a1433b01fc9b9495db8f7f03c99cb}{%
+           family={Metropolis},
+           familyi={M\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d56e63b5d0ea4274c13702e7e08e46ac}{%
+           family={Ulam},
+           familyi={U\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e43749ad011976b8f48a3ce852d9720b}
+      \strng{fullhash}{e43749ad011976b8f48a3ce852d9720b}
+      \strng{fullhashraw}{e43749ad011976b8f48a3ce852d9720b}
+      \strng{bibnamehash}{e43749ad011976b8f48a3ce852d9720b}
+      \strng{authorbibnamehash}{e43749ad011976b8f48a3ce852d9720b}
+      \strng{authornamehash}{e43749ad011976b8f48a3ce852d9720b}
+      \strng{authorfullhash}{e43749ad011976b8f48a3ce852d9720b}
+      \strng{authorfullhashraw}{e43749ad011976b8f48a3ce852d9720b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{number}{247}
+      \field{title}{The Monte Carlo Method}
+      \field{volume}{44}
+      \field{year}{1949}
+      \field{pages}{335\bibrangedash 341}
+      \range{pages}{7}
+    \endentry
+    \entry{rosen2012}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d7c5a2525564580a8aa04190ae2b822}{%
+           family={Rosen},
+           familyi={R\bibinitperiod},
+           given={Kenneth\bibnamedelima H.},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{5d7c5a2525564580a8aa04190ae2b822}
+      \strng{fullhash}{5d7c5a2525564580a8aa04190ae2b822}
+      \strng{fullhashraw}{5d7c5a2525564580a8aa04190ae2b822}
+      \strng{bibnamehash}{5d7c5a2525564580a8aa04190ae2b822}
+      \strng{authorbibnamehash}{5d7c5a2525564580a8aa04190ae2b822}
+      \strng{authornamehash}{5d7c5a2525564580a8aa04190ae2b822}
+      \strng{authorfullhash}{5d7c5a2525564580a8aa04190ae2b822}
+      \strng{authorfullhashraw}{5d7c5a2525564580a8aa04190ae2b822}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7}
+      \field{title}{Matemática Discreta e suas Aplicações}
+      \field{year}{2012}
+    \endentry
+    \entry{yin2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bf7eb9dbb747f641a5083488354145d6}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Robert\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Porto Alegre}%
+      }
+      \list{publisher}{1}{%
+        {Bookman}%
+      }
+      \strng{namehash}{bf7eb9dbb747f641a5083488354145d6}
+      \strng{fullhash}{bf7eb9dbb747f641a5083488354145d6}
+      \strng{fullhashraw}{bf7eb9dbb747f641a5083488354145d6}
+      \strng{bibnamehash}{bf7eb9dbb747f641a5083488354145d6}
+      \strng{authorbibnamehash}{bf7eb9dbb747f641a5083488354145d6}
+      \strng{authornamehash}{bf7eb9dbb747f641a5083488354145d6}
+      \strng{authorfullhash}{bf7eb9dbb747f641a5083488354145d6}
+      \strng{authorfullhashraw}{bf7eb9dbb747f641a5083488354145d6}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{title}{Estudo de caso: planejamento e métodos}
       \field{year}{2015}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb http://www.abntex.net.br/
-      \endverb
-      \verb{url}
-      \verb http://www.abntex.net.br/
-      \endverb
     \endentry
   \enddatalist
-  \missing{chave_da_referencia_aqui}
 \endrefsection
 \endinput
 

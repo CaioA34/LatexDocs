@@ -1,64 +1,56 @@
 % ----------------------------------------------------------
-\chapter{Estudo de Caso: Cálculo de \texorpdfstring{$\pi$}{pi} e Análise de Erro via Monte Carlo}\label{cap:estudo_caso_pi}
+\chapter{Fundamentação Teórica}\label{cap:desenvolvimento}
 % ----------------------------------------------------------
 
-Este capítulo aborda a estimativa da constante matemática $\pi$ utilizando o método numérico e estocástico de Monte Carlo. O objetivo principal é analisar o erro algorítmico numérico (absoluto, relativo e relativo percentual) durante a determinação dessa constante. A metodologia consiste em simular coordenadas de pontos aleatórios bidimensionais restritos a um quadrado de lado unitário, verificando, em seguida, a proporção de pontos que incidem no interior de um quarto de circunferência circunscrito na mesma área. Os resultados comprovam a convergência do método, demonstrando a relação direta entre a expansão da amostragem e a minimização dos erros iterativos.
+\section{O Método de Monte Carlo}
 
-\section{Introdução e Contextualização}
+O método de Monte Carlo \cite{fishman1996} é uma técnica numérica amplamente utilizada na computação para resolver problemas que envolvem incerteza, variabilidade ou integração de funções complexas por meio de simulações estocásticas. Fundamenta-se na geração de números aleatórios para modelar fenômenos que seriam difíceis ou impossíveis de tratar de forma determinística, permitindo estimar valores aproximados de integrais, probabilidades ou soluções de sistemas complexos \cite{metropolis1949}.
 
-A constante matemática $\pi$ constitui um dos números fundamentais da matemática e é definida espacialmente como a razão entre o comprimento de qualquer circunferência geométrica e o seu respectivo diâmetro euclidiano. Classificada como um valor irracional e transcendente, sua aproximação elementar é de 3,14159. Na teoria computacional e na análise numérica, o cálculo desta constante atua de modo fundamental como uma referência técnica primária para a avaliação de desempenho computacional algorítmico e verificação de precisão.
+\section{Algoritmos Recursivos}
 
-Para lidar com incertezas e simulações complexas, a ciência da computação lança mão de processos estocásticos, os quais consistem em modelos matemáticos para representar fenômenos regidos por flutuações e componentes aleatórios. Nesse cenário se destaca o método de Monte Carlo, que utiliza essencialmente geradores de números pseudoaleatórios para obter aproximações numéricas a partir de simulações em larga escala.
+Os algoritmos recursivos são métodos de resolução de problemas em que uma função chama a si mesma para resolver subproblemas menores da mesma natureza. Esse tipo de algoritmo é especialmente útil quando o problema pode ser dividido em partes semelhantes, permitindo que cada chamada trate de um caso mais simples até atingir uma condição de parada ou caso base \cite{rosen2012}.
 
-\section{Definição do Problema e Metodologia}
+\section{Circunferência de Raio Unitário e Cálculo de \texorpdfstring{$\pi$}{pi}}
 
-O problema investigado busca determinar numericamente o valor de $\pi$ aproveitando-se das propriedades da geometria plana, nas quais a área de uma circunferência base de raio unitário ($r=1$) corresponde a $A = \pi r^2 = \pi$. 
+A área de uma circunferência de raio unitário no plano euclidiano é determinada pela expressão geral $A_{circulo} = \pi r^{2}$, que, para $r=1$, resulta em $A_{circulo} = \pi$.
 
-Para estimar a área respectiva a $1/4$ desta circunferência através do método de Monte Carlo, estabeleceu-se um quadrado de aresta unitária contendo o segmento circular. O procedimento metodológico gera aleatoriamente $N$ pontos descritos pelas coordenadas $(x, y)$, extraídas de uma distribuição uniforme dentro do limite $[0,1]$. 
+Para calcular a área de $1/4$ da circunferência unitária usando o método de Monte Carlo, a ideia é colocar este arco dentro de um quadrado de aresta 1 e sortear pontos aleatórios. Se o ponto sorteado estiver dentro de $1/4$ da circunferência, marca-se um acerto.
 
-A cada iteração, avalia-se a condição geométrica de pertencimento à circunferência por meio da \autoref{eq:condicao_circulo}:
-\begin{equation}\label{eq:condicao_circulo}
-    x^2 + y^2 \leq 1.
+A probabilidade $P$ exata de um ponto cair na circunferência é igual à razão entre as áreas, conforme a \autoref{eq:Eq_probabilidade}:
+\begin{equation}\label{eq:Eq_probabilidade}
+    P = \frac{A_{circulo}}{A_{quadrado}} = \frac{\pi/4}{A_{quadrado}}.
 \end{equation}
 
-Quando o ponto atende à \autoref{eq:condicao_circulo}, um contador de acertos ($N_{acertos}$) é incrementado. A probabilidade geométrica $P$ de um ponto sorteado pertencer à circunferência é mensurada pela razão empírica $\frac{N_{acertos}}{N}$. Como a área do quadrado base é sabidamente igual a 1, a aproximação de $\pi$ no k-ésimo passo da simulação é formulada pela \autoref{eq:estimativa_pi}:
-\begin{equation}\label{eq:estimativa_pi}
-    \pi_k \approx 4 \times \frac{N_{acertos}^{(k)}}{k}.
+Como a área do quadrado é unitária ($A_{quadrado}=1$), tem-se pela \autoref{eq:Eq_pi_exato}:
+\begin{equation}\label{eq:Eq_pi_exato}
+    \pi = 4 P A_{quadrado} = 4P.
 \end{equation}
 
-Para aferir a precisão das iterações, realiza-se uma análise de erros comparando estimativas sucessivas ($\pi_k$ e $\pi_{k-1}$):
+Assim, a partir de $N$ pontos sorteados, obtém-se uma estimativa iterativa para $\pi$ dada pela \autoref{eq:Eq_pi_aprox}:
+\begin{equation}\label{eq:Eq_pi_aprox}
+    \pi_{k} \approx 4 \times \frac{N_{acertos}^{(k)}}{N}.
+\end{equation}
+
+\section{Geradores de Números Pseudoaleatórios}
+
+A precisão destes métodos depende dos geradores de números aleatórios. Em Python, a biblioteca padrão disponibiliza o módulo \texttt{random}, cujo mecanismo é baseado no algoritmo \textit{Mersenne Twister}. Os valores são classificados como pseudoaleatórios pois resultam de processos determinísticos dependentes de uma semente inicial.
+
+\section{Erros Absoluto, Relativo e Relativo Percentual}
+
+Em métodos numéricos utilizam-se três principais tipos de erro para avaliar a precisão:
 \begin{alineas}
-    \item \textbf{Erro Absoluto ($E_a$):} Representa a diferença paramétrica direta entre os passos, sendo $E_a = |\pi_k - \pi_{k-1}|$;
-    \item \textbf{Erro Relativo ($E_r$):} Afere a relevância do desvio em proporção à grandeza, $E_r = \frac{|\pi_k - \pi_{k-1}|}{|\pi_k|}$; e
-    \item \textbf{Erro Relativo Percentual ($E_{rp}$):} Padroniza a exibição deste desvio no formato de porcentagem, sendo $E_{rp} = E_r \times 100\%$.
+    \item \textbf{Erro absoluto:} é a diferença entre o valor aproximado ($x_{aprox}$) e seu valor verdadeiro ($x_{verd}$), conforme a \autoref{eq:Eq_erro_abs}:
+    \begin{equation}\label{eq:Eq_erro_abs}
+        \epsilon_{a} = |x_{aprox} - x_{verd}|.
+    \end{equation}
+    
+    \item \textbf{Erro relativo:} relaciona o erro absoluto com o valor verdadeiro, mostrando a proporção do desvio, dado pela \autoref{eq:Eq_erro_rel}:
+    \begin{equation}\label{eq:Eq_erro_rel}
+        E_{r} = \frac{|x_{aprox} - x_{verd}|}{|x_{verd}|}.
+    \end{equation}
+    
+    \item \textbf{Erro relativo percentual:} é o erro relativo expresso em porcentagem, obtido pela \autoref{eq:Eq_erro_perc}:
+    \begin{equation}\label{eq:Eq_erro_perc}
+        \epsilon_{r\%} = E_{r} \times 100\%.
+    \end{equation}
 \end{alineas}
-
-\section{Análise de Dados e Implementação}
-
-A rotina simulada emprega recursos da linguagem Python, valendo-se do algoritmo \textit{Mersenne Twister} importado nativamente na biblioteca \texttt{random} para gerar os pares pseudoaleatórios. A precisão do modelo simulado decorre estritamente da dimensão do conjunto de amostras $N$ estipulado para a execução.
-
-A essência da estrutura lógica programada para computar o cálculo da constante e tabular os acertos probabilísticos está exposta no código a seguir \cite{chave_da_referencia_aqui}:
-
-\begin{verbatim}
-import random
-
-def valor_pi_monte_carlo(N_pontos):
-    acertos = 0
-    for i in range(N_pontos):
-        x = random.random()
-        y = random.random()
-        
-        # Verifica incidência geométrica
-        if x*x + y*y <= 1:
-            acertos += 1
-            
-    # Estimador de Pi
-    pi_estimado = 4 * acertos / N_pontos
-    return pi_estimado
-\end{verbatim}
-
-\section{Discussão e Conclusão}
-
-O algoritmo construído exibe excelente grau de êxito na conversão de proposições de geometria euclidiana determinística em um eficiente experimento de modelagem estocástica amparado por Monte Carlo. Submetendo a rotina a um progressivo escalonamento amostral na variável $N$, atesta-se, embasado pela Lei dos Grandes Números, a notável tendência do estimador calculável gravitar em direção ao valor real inato de $\pi$. 
-
-Salienta-se, porém, que o processo se apoia em vetores estocásticos oriundos de um gerador pseudoaleatório e, portanto, exibe flutuações e ruídos numéricos transientes, particularizados em faixas estreitas de tamanho amostral. Todavia, ao estender a malha de amostras de maneira substantiva, a redução abrupta dos marcadores de erro relativo e absoluto atestam simultaneamente a robustez algorítmica e a flexibilidade técnica deste método de integração computacional.

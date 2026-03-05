@@ -1,56 +1,26 @@
 % ----------------------------------------------------------
-\chapter{Introdução}
+\chapter{Introdução}\label{cap:introducao}
 % ----------------------------------------------------------
 
-As orientações aqui apresentadas são baseadas em um conjunto de normas elaboradas pela \glsxtrfull{ABNT}. Além das normas técnicas, a Biblioteca também elaborou uma série de tutoriais, guias, \textit{templates} os quais estão disponíveis em seu site, no endereço \url{http://portal.bu.ufsc.br/normalizacao/}.
+A constante matemática \texorpdfstring{$\pi$}{pi} é definida como a razão entre o comprimento de qualquer circunferência e seu respectivo diâmetro em um espaço euclidiano, constituindo um dos números fundamentais da matemática \cite{diniz2018}. Seu valor aproximado é 3,14159, sendo classificado como um número irracional e transcendente, pois não pode ser expresso como razão entre inteiros nem como raiz de qualquer polinômio com coeficientes inteiros.
 
-Paralelamente ao uso deste \textit{template} recomenda-se que seja utilizado o \textbf{Tutorial de Trabalhos Acadêmicos} (disponível neste link \url{https://repositorio.ufsc.br/handle/123456789/180829}) e/ou que o discente \textbf{participe das capacitações oferecidas da Biblioteca Universitária da UFSC}.
+O estudo de \texorpdfstring{$\pi$}{pi} remonta à Antiguidade, quando civilizações como a egípcia e a babilônica já empregavam aproximações numéricas em problemas de natureza geométrica. Posteriormente, Arquimedes de Siracusa desenvolveu métodos baseados em polígonos inscritos e circunscritos para estabelecer limites superiores e inferiores para seu valor, inaugurando abordagens rigorosas de estimativa. Na matemática moderna, \texorpdfstring{$\pi$}{pi} surge naturalmente em diversas áreas, incluindo trigonometria, análise matemática, séries infinitas e integrais definidas.
 
-Este \textit{template} está configurado apenas para a impressão utilizando o anverso das folhas, caso você queira imprimir usando a frente e o verso, acrescente a opção \textit{openright} e mude de \textit{oneside} para \textit{twoside} nas configurações da classe \textit{abntex2} no início do arquivo principal \textit{main.tex} \cite{abntex2classe}.
+\section{Processos Estocásticos}
 
-Os trabalhos de conclusão de curso (TCC) de graduação e de especialização não são entregues em formato impresso na Biblioteca Universitária. Porém, sua versão PDF deve ser disponibilizada no Repositório Institucional. Consulte as orientações disponibilizadas no Moodle da disciplina de TCC sobre os procedimentos adotados para a entrega.
+Processos estocásticos \cite{gardiner2009} constituem uma classe de modelos matemáticos empregados na descrição de fenômenos cuja evolução é influenciada por componentes aleatórios. Formalmente, um processo estocástico é definido como uma família de variáveis aleatórias indexadas por um conjunto, que geralmente representa o tempo ou uma variável espacial.
 
-\section{Recomendações de uso}
-Este \textit{template} foi elaborado em \LaTeX. O sumário é gerado automaticamente de acordo com a norma NBR 6027/2012 utilizando a sequência abaixo para diferenciação gráfica nas divisões de seção e subseção.
-
-\vspace{12pt}
-
-\textbf{1 SEÇÃO PRIMÁRIA}
-
-1.1 SEÇÃO SECUNDÁRIA
-
-\textbf{1.1.1 Seção terciária}
-
-\textit{1.1.1.1 Seção quartenária}
-
-1.1.1.1.1 Seção quinária
-
-\vspace{12pt}
-
-\begin{alineas}
-    \item Seção primária, use o comando \verb|\section{}|.
-    \item Seção secundária, use o comando \verb|\subsection{}|.
-    \item Seção terciária, use o comando \verb|\subsubsection{}|.
-    \item Seção quartenária, use o comando \verb|\subsubsubsection{}|.
-    \item Seção quinária, use o comando \verb|\subsubsubsubsection{}|.
-    \item Título das seções de referências, apêndice e anexo são gerados automaticamente pelo \textit{template}.
-    \item Para citação com mais de três linhas use o comando \verb|\begin{citacao}|.
-    \item Note de rodapé, use o comando \verb|\footnote{}|\footnote{A nota de rodapé é automaticamente formatada pelo \textit{template}.}
-\end{alineas}
+Do ponto de vista aplicado, processos estocásticos são amplamente utilizados na modelagem de sistemas dinâmicos sujeitos a incertezas e flutuações aleatórias. Assim, constituem ferramentas essenciais na análise quantitativa de sistemas complexos, possibilitando previsões probabilísticas e a compreensão do comportamento médio.
 
 \section{Objetivos}
 
-
-Nas seções abaixo estão descritos o objetivo geral e os objetivos específicos deste TCC.
-
-
 \subsection{Objetivo Geral}
-
-
-Descrição...
-
+Estimar a constante matemática \texorpdfstring{$\pi$}{pi} utilizando o método numérico estocástico de Monte Carlo e realizar uma análise rigorosa do erro algorítmico associado.
 
 \subsection{Objetivos Específicos}
-
-
-Descrição...
+\begin{alineas}
+    \item Apresentar a fundamentação teórica sobre o Método de Monte Carlo e a geometria da circunferência unitária;
+    \item Implementar um algoritmo em linguagem Python para a simulação de dardos aleatórios;
+    \item Calcular o erro absoluto, relativo e relativo percentual a cada passo da iteração;
+    \item Avaliar a convergência do método à medida que o tamanho da amostra aumenta.
+\end{alineas}
