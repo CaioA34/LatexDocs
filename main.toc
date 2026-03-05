@@ -4,34 +4,32 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{15}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Processos Estocásticos}{15}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Objetivos}{15}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Objetivo Geral}{15}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Objetivos Específicos}{15}{subsection.1.2.2}%
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{9}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Processos Estocásticos}{9}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos}{9}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Objetivo Geral}{9}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Objetivos Específicos}{9}{subsection.1.2.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{17}{chapter.2}%
-\contentsline {section}{\numberline {2.1}O Método de Monte Carlo}{17}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Algoritmos Recursivos}{17}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Circunferência de Raio Unitário e Cálculo de $\pi $}{17}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Geradores de Números Pseudoaleatórios}{17}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Erros Absoluto, Relativo e Relativo Percentual}{18}{section.2.5}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}O Método de Monte Carlo}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Algoritmos Recursivos}{11}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Circunferência de Raio Unitário e Cálculo de $\pi $}{11}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Geradores de Números Pseudoaleatórios}{11}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Erros Absoluto, Relativo e Relativo Percentual}{12}{section.2.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Conclusão}}{23}{chapter.3}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Conclusão}}{17}{chapter.3}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{REFERÊNCIAS}{24}{section*.19}%
+\contentsline {chapter}{REFERÊNCIAS}{18}{section*.12}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}{Metodologia: Estudo de Caso}}{25}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}{Metodologia: Estudo de Caso}}{19}{appendix.A}%
 \cftinsert {AAA}
 \renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}{Descrição}}{26}{appendix.anexochapback.1}%
+\contentsline {appendix}{\chapternumberline {A}{Roteiro Original do Estudo de Caso}}{20}{appendix.anexochapback.1}%

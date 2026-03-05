@@ -1,99 +1,29 @@
 % Capa
 \imprimircapa
 
-
 % Folha de rosto
-% o * indica que haverá a ficha bibliográfica
-\imprimirfolhaderosto*
-
-% Inserir a ficha bibliografica
-% http://ficha.bu.ufsc.br/
-\begin{fichacatalografica}
-	\includepdf{pre_textual/ficha_catalografica.pdf}
-\end{fichacatalografica}
-
-% Inserir folha de aprovação
-\begin{folhadeaprovacao}
-	\OnehalfSpacing
-	\centering
-	\imprimirautor\\%
-	\vspace{24pt}		
-	\textbf{\imprimirtitulo}%
-	\ifnotempty{\imprimirsubtitulo}{:~\imprimirsubtitulo}\\%
-	%		\vspace*{31.5pt}%3\baselineskip
-	\vspace*{\baselineskip}
-	%\begin{minipage}{\textwidth}
-	Este Trabalho de Conclusão de Curso foi julgado adequado para obtenção do Título de ``\imprimirformacao'' e aprovado em sua forma final pelo Curso de Graduação em Engenharia de Controle e Automação.\\
-	\vspace{12pt}
-	\imprimirlocal, \imprimirdia~de~\imprimirmes~de~\imprimirano.\\
-	
-	\vspace*{18pt}
-	\textbf{Banca Examinadora:}\\
-	
-	\vspace*{24pt}
-	\assinatura{\OnehalfSpacing \imprimirbancanomea}
-	\vspace{6pt}
-	\imprimirbancainsta\\
-	
-	\vspace*{24pt}
-	\assinatura{\OnehalfSpacing \imprimirbancanomeb}
-	\vspace{6pt}
-	\imprimirbancainstb\\
-	
-	\vspace*{24pt}
-	\assinatura{\OnehalfSpacing \imprimirbancanomec}
-	\vspace{6pt}
-	\imprimirbancainstc\\
-	
-\end{folhadeaprovacao}
-
-% Dedicatória
-\ifnotempty{\imprimirdedicatoriatcc}{
-\begin{dedicatoria}
-	\vspace*{\fill}
-	\noindent
-	\begin{adjustwidth*}{}{7.5cm} 
-		\textit{\imprimirdedicatoriatcc}
-	\end{adjustwidth*}
-\end{dedicatoria}
-}
-
-% Agradecimentos
-\ifnotempty{\imprimiragradecimentostcc}{
-\begin{agradecimentos}
-	\imprimiragradecimentostcc
-\end{agradecimentos}
-}
-
-% Epígrafe
-\ifnotempty{\imprimirepigrafetcc}{
-\begin{epigrafe}
-	\vspace*{\fill}
-        \noindent
-	\begin{adjustwidth*}{}{7.5cm}
-	       \textit{\imprimirepigrafetcc}
-        \end{adjustwidth*}
-\end{epigrafe}
-}
-
+\imprimirfolhaderosto
 
 % Resumo
 \setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
 \begin{resumo}
 	\SingleSpacing
-	\imprimirresumotcc
+	Este trabalho apresenta um estudo de caso sobre a estimativa da constante matemática \texorpdfstring{$\pi$}{pi} por meio do método estocástico de Monte Carlo. O objetivo principal é analisar a convergência do algoritmo e avaliar o erro numérico (absoluto, relativo e relativo percentual) em função do aumento do número de amostras. A simulação foi implementada na linguagem Python, consistindo no sorteio aleatório de coordenadas bidimensionais e na verificação de sua incidência geométrica em um quarto de circunferência unitária inscrito em um quadrado. Os resultados obtidos para uma amostragem de 10.000 iterações demonstraram a eficácia do método, alcançando um erro relativo percentual inferior a 0,5\%. Conclui-se que o método de Monte Carlo, fundamentado na Lei dos Grandes Números, é uma ferramenta robusta para aproximações numéricas, embora dependa da qualidade do gerador de números pseudoaleatórios e de um volume amostral expressivo para atenuar as flutuações estocásticas.
 	
-	\textbf{Palavras-chave}: \imprimirpalavraschave
+	\vspace{\onelineskip}
+	\noindent
+	\textbf{Palavras-chave}: Método de Monte Carlo. Constante Pi. Processos Estocásticos. Análise de Erro. Simulação Computacional.
 \end{resumo}
 
 % Abstract
 \begin{resumo}[Abstract]
 	\SingleSpacing
-	\imprimirabstracttcc
+	This paper presents a case study on estimating the mathematical constant \texorpdfstring{$\pi$}{pi} using the stochastic Monte Carlo method. The main objective is to analyze the algorithm's convergence and evaluate the numerical error (absolute, relative, and percentage relative error) as a function of the increasing number of samples. The simulation was implemented in Python, consisting of the random drawing of two-dimensional coordinates and the verification of their geometric incidence in a unit quarter-circle inscribed in a square. The results obtained for a sampling of 10,000 iterations demonstrated the effectiveness of the method, achieving a relative percentage error of less than 0.5\%. It is concluded that the Monte Carlo method, based on the Law of Large Numbers, is a robust tool for numerical approximations, although it depends on the quality of the pseudorandom number generator and a significant sample volume to mitigate stochastic fluctuations.
 		
-	\textbf{Keywords}: \imprimirkeywords
+	\vspace{\onelineskip}
+	\noindent
+	\textbf{Keywords}: Monte Carlo Method. Pi Constant. Stochastic Processes. Error Analysis. Computational Simulation.
 \end{resumo}
-
 
 {%hidelinks
 	\hypersetup{hidelinks}
@@ -102,13 +32,6 @@
 	\pdfbookmark[0]{\listfigurename}{lof}
 	\listoffigures*
 	\cleardoublepage
-	
-	% inserir lista de quadros
-	\ifnotempty{\verificaquadros}{
-		\pdfbookmark[0]{\listofquadrosname}{loq}
-		\listofquadros*
-		\cleardoublepage
-	}
 	
 	% inserir lista de tabelas
 	\pdfbookmark[0]{\listtablename}{lot}

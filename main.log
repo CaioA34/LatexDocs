@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.4)  5 MAR 2026 00:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.4)  5 MAR 2026 00:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1416,86 +1416,46 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.8 
+l.6 
      [1
 
 
 
-]
-<pre_textual/ficha_catalografica.pdf, id=19, 597.55246pt x 845.19763pt>
-File: pre_textual/ficha_catalografica.pdf Graphic file (type pdf)
-<use pre_textual/ficha_catalografica.pdf>
-Package pdftex.def Info: pre_textual/ficha_catalografica.pdf  used on input line 12.
-(pdftex.def)             Requested size: 597.551pt x 845.19557pt.
-<pre_textual/ficha_catalografica.pdf, id=21, page=1, 597.55246pt x 845.19763pt>
-File: pre_textual/ficha_catalografica.pdf Graphic file (type pdf)
-<use pre_textual/ficha_catalografica.pdf, page 1>
-Package pdftex.def Info: pre_textual/ficha_catalografica.pdf , page1 used on input line 12.
-(pdftex.def)             Requested size: 597.551pt x 845.19557pt.
-File: pre_textual/ficha_catalografica.pdf Graphic file (type pdf)
-<use pre_textual/ficha_catalografica.pdf, page 1>
-Package pdftex.def Info: pre_textual/ficha_catalografica.pdf , page1 used on input line 12.
-(pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
-File: pre_textual/ficha_catalografica.pdf Graphic file (type pdf)
-<use pre_textual/ficha_catalografica.pdf, page 1>
-Package pdftex.def Info: pre_textual/ficha_catalografica.pdf , page1 used on input line 12.
-(pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
-File: pre_textual/ficha_catalografica.pdf Graphic file (type pdf)
-<use pre_textual/ficha_catalografica.pdf, page 1>
-Package pdftex.def Info: pre_textual/ficha_catalografica.pdf , page1 used on input line 12.
-(pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
-File: pre_textual/ficha_catalografica.pdf Graphic file (type pdf)
-<use pre_textual/ficha_catalografica.pdf, page 1>
-Package pdftex.def Info: pre_textual/ficha_catalografica.pdf , page1 used on input line 12.
-(pdftex.def)             Requested size: 597.57834pt x 845.23425pt.
- [2
+] [2
 
- <./pre_textual/ficha_catalografica.pdf>] [3
+] [3
 
-] [4
+] (main.lof) [4
 
-] [5
-
-
-] [6
-
-] [7
-
-] [8
-
-] (main.lof) [9
-
-] (main.loq) [10
-
-] (main.lot) [11
+] (main.lot) [5
 
 ]
 
-Package glossaries Warning: Empty glossary for \printnoidxglossary[type={acronym}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 121.
+Package glossaries Warning: Empty glossary for \printnoidxglossary[type={acronym}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 44.
 
-[12
+[6
 
 ]
 
-Package glossaries Warning: Empty glossary for \printnoidxglossary[type={simbolos}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 126.
+Package glossaries Warning: Empty glossary for \printnoidxglossary[type={simbolos}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 49.
 
-[13
+[7
 
-] (main.toc) [14
+] (main.toc) [8
 
 ])
 \openout2 = `capitulos/cap_1.aux'.
 
  (capitulos/cap_1.tex
 Cap\'{\i }tulo 1.
-[15
+[9
 
 
 
 ])
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported on input line 246.
- [16]
+ [10]
 \openout2 = `capitulos/cap_2.aux'.
 
  (capitulos/cap_2.tex
@@ -1508,15 +1468,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [17
+ [11
 
 
 
 
-{C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]) [18]
+{C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]) [12]
 \openout2 = `capitulos/cap_3.aux'.
 
- (capitulos/cap_3.tex [19
+ (capitulos/cap_3.tex [13
 
 
 
@@ -1525,49 +1485,46 @@ Overfull \hbox (1.95023pt too wide) in paragraph at lines 59--59
 []    \T1/lmtt/m/n/12 # An�lise de Erro Final em rela��o ao valor verdadeiro de Pi (math.pi)[] 
  []
 
-[20]
-<figuras/grafico_montecarlo.png, id=211, 867.24pt x 361.35pt>
+[14]
+<figuras/grafico_montecarlo.png, id=161, 867.24pt x 361.35pt>
 File: figuras/grafico_montecarlo.png Graphic file (type png)
 <use figuras/grafico_montecarlo.png>
 Package pdftex.def Info: figuras/grafico_montecarlo.png  used on input line 111.
 (pdftex.def)             Requested size: 455.0pt x 189.58478pt.
- [21 <./figuras/grafico_montecarlo.png>]
+ [15 <./figuras/grafico_montecarlo.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 121.
-) [22]
+) [16]
 \openout2 = `capitulos/cap_4.aux'.
 
  (capitulos/cap_4.tex
 Cap\'{\i }tulo 3.
-) [23
+) [17
 
 
 
 
-] (pos_textual/apendice_a.tex [24
+] (pos_textual/apendice_a.tex [18
 
 
 
 ]
 AP\^ENDICE A.
-) (pos_textual/anexo_a.tex [25
+) (pos_textual/anexo_a.tex [19
 
 ]
 ANEXO A.
-) [26
+) [20
 
 ]
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
-\tf@loq=\write7
-\openout7 = `main.loq'.
+\tf@lot=\write7
+\openout7 = `main.lot'.
 
-\tf@lot=\write8
-\openout8 = `main.lot'.
-
-\tf@toc=\write9
-\openout9 = `main.toc'.
+\tf@toc=\write8
+\openout8 = `main.toc'.
 
  (main.aux (capitulos/cap_1.aux) (capitulos/cap_2.aux) (capitulos/cap_3.aux) (capitulos/cap_4.aux))
  ***********
@@ -1579,17 +1536,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38919 strings out of 467867
- 741707 string characters out of 5416883
- 1838961 words of memory out of 5000000
- 67107 multiletter control sequences out of 15000+600000
- 673073 words of font info for 111 fonts, out of 8000000 for 9000
+ 38876 strings out of 467867
+ 740498 string characters out of 5416883
+ 1839004 words of memory out of 5000000
+ 67072 multiletter control sequences out of 15000+600000
+ 673411 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,17n,117p,2649b,4447s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,12n,117p,2649b,4447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Usuário/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (27 pages, 437999 bytes).
+Output written on main.pdf (21 pages, 422880 bytes).
 PDF statistics:
- 414 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 23802 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 79 named destinations out of 1000 (max. 500000)
+ 23747 words of extra memory for PDF output out of 24883 (max. 10000000)
 

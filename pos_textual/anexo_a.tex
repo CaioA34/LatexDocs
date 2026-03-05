@@ -1,5 +1,20 @@
 % ----------------------------------------------------------
-\chapter{Descrição}   %Apenas a primeira letra deve ser maiúscula
+\chapter{Roteiro Original do Estudo de Caso}
+\label{ane:roteiro_original}
 % ----------------------------------------------------------
 
-São documentos não elaborados pelo autor que servem como fundamentação (mapas, leis, estatutos). Deve ser precedido da palavra ANEXO, identificada por letras maiúsculas consecutivas, travessão e pelo respectivo título. Utilizam-se letras maiúsculas dobradas quando esgotadas as letras do alfabeto. 
+Este anexo apresenta as diretrizes descritivas originais fornecidas para a elaboração do estudo de caso sobre o cálculo de \texorpdfstring{$\pi$}{pi} e a análise de erros, servindo como documento balizador não elaborado pelo autor.
+
+\section*{Procedimentos Exigidos}
+
+De acordo com o documento orientador do laboratório de computação, os seguintes passos metodológicos deveriam ser estritamente cumpridos para a aprovação da simulação:
+
+\begin{alineas}
+    \item \textbf{Preparação do experimento:} Ler atentamente o objetivo do laboratório e os conceitos sobre o método de Monte Carlo. Definir o número total de pontos $N$ a serem gerados para a simulação, lembrando que valores maiores aumentam a precisão.
+    
+    \item \textbf{Desenvolvimento do código:} Criar um programa ou script que gere $N$ pares de números aleatórios $(x, y)$ uniformemente distribuídos no intervalo $[0,1]$. Incluir uma rotina para verificar se cada ponto está dentro do círculo de raio 1 centrado na origem ($x^2+y^2 \leq 1$) e contabilizar os acertos.
+    
+    \item \textbf{Execução da simulação:} Rodar o programa e registrar o número de pontos dentro do círculo ($N_{acertos}$). Calcular a estimativa de \texorpdfstring{$\pi$}{pi} usando a relação matemática de Monte Carlo. Observar como a precisão da estimativa se altera ao variar $N$.
+    
+    \item \textbf{Análise dos resultados:} Comparar o valor obtido de \texorpdfstring{$\pi$}{pi} com o valor real ($\pi \approx 3,14159$). Calcular o erro absoluto, erro relativo e erro relativo percentual. Discutir possíveis fontes de erro e limitações do método.
+\end{alineas}
